@@ -31,7 +31,7 @@
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
             //"Content-length: 0",
             "Content-Type: application/json",
-            "Authorization: "
+            "Authorization: Bearer 123456789"
         )
     );
 
